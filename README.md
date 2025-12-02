@@ -1,177 +1,128 @@
-# **Swund – Production-Grade Farcaster Mini App on Celo**
+# 🚀 Swund – Decentralized AI-Powered Crypto Trading App on Celo × Farcaster
 
-Swund is a **production-ready boilerplate and toolkit** for building high-quality **Farcaster mini apps on Celo** — designed to help developers ship fast, reliable, and scalable social experiences **in days, not months**.
+## 📖 Overview
+**Swund** is the first production-grade, fully decentralized AI-powered crypto trading app built natively on **Celo** and deeply integrated with **Farcaster**.
 
-It powers Farcaster Frames and mini apps that feel native, load instantly, and leverage **Celo’s low-cost, mobile-first infrastructure**.
-Whether you're building social trading tools, onchain games, dashboards, or AI agents — **Swund accelerates everything** with battle-tested patterns extracted from real production apps.
+Live inside Warpcast as a high-performance mini app / Frame, Swund delivers real-time charts, AI-generated trading signals, onchain execution, and a community-driven trading floor — all with Celo’s mobile-first, ultra-low-fee experience and Farcaster’s social superpowers.
 
-**Repository:** [https://github.com/Thycrescendo/swund](https://github.com/Thycrescendo/swund)
-**Deployments:** Example contracts deployed on Celo Alfajores & Mainnet
-**Status:** Ready for mainnet — **zero to production in one command**
+- Trade instantly with cUSD, USDC, CELO and any Celo token  
+- Get personalized AI alpha directly in your Farcaster feed  
+- Execute trades without ever leaving Warpcast  
+- Discuss, follow, and copy-trade top performers onchain  
 
----
-
-## 🚀 What Swund Enables
-
-Build Farcaster mini apps that are:
-
-* ⚡ **Instant-loading** (Next.js + optimized Celo SDK)
-* 🤖 **AI-ready** — integrate Grok, Claude, or onchain LLMs
-* 📱 **Mobile-first** — feels native inside Warpcast
-* 🔐 **Secure & cheap** — powered by Celo’s ultra-low fees
-* 🟣 **Social-native** — deep Farcaster + Neynar integrations
+🔗 Repository: [github.com/Thycrescendo/swund](https://github.com/Thycrescendo/swund)  
+🔗 Live App: swund.xyz (or add Frame via Warpcast)
 
 ---
 
-## ❗ The Problem Swund Solves
-
-Most Farcaster mini apps today are:
-
-* Slow to load, especially on mobile
-* Expensive or fragile as interactions scale
-* Hard to take from MVP → production
-* Missing reusable patterns for auth, payments, storage, AI
-
-**Swund fixes all of this** with a complete, production-hardened stack trusted by top builders.
+## ⚡ What Swund Does
+- Real-time multi-chart interface inside a Farcaster mini app  
+- AI assistant (powered by Grok / Claude / onchain LLMs) delivering live market analysis & signals  
+- One-tap onchain trading using Celo WalletKit + Social Connect  
+- Social trading: follow top traders, see their casts + P&L onchain  
+- Token discovery with Farcaster sentiment & onchain volume overlays  
+- Fully decentralized — no custodians, no KYC, no withdrawal delays  
 
 ---
 
-## 🧩 Core Features (Ready Out-of-the-Box)
+## 🧩 The Problem It Solves
+Current trading experiences on Farcaster are fragmented:
+- Most Frames are gimmicks, not real trading tools  
+- Centralized apps feel out of place in a social feed  
+- High fees and slow chains kill mobile trading momentum  
 
-* **Frames v2 Ready** → Fully compliant (Neynar + Airstack SDKs)
-* **Celo WalletKit + Social Connect** → One-tap login (phone/email)
-* **Mini App Router** → Optimized for Warpcast embedded UX
-* **Onchain Payments** → Instant stablecoin transfers (cUSD, USDC)
-* **AI Integration Layer** → Grok API, OpenRouter, or local models
-* **Persistent Storage** → Tableland + Ceramic (IndexedDB fallback)
-* **Responsive UI** → Tailwind-based, perfect for mobile mini apps
+Swund fixes this with a **native, fast, social, AI-first trading terminal** that lives where the alpha already flows — inside Warpcast, powered by Celo.
 
 ---
 
-## 🛣️ Roadmap — The Swund Acceleration Program
-
-**Six waves** to turn any idea into a full production Farcaster mini app:
-
-1. **Wave 1: Instant MVP** – Frames + Celo Connect in <1 hour
-2. **Wave 2: Core Mini App** – Fullscreen UX, payments, notifications
-3. **Wave 3: AI Upgrade** – Serverless & on-device AI agents
-4. **Wave 4: Advanced Social** – Reactions, follows, channels
-5. **Wave 5: Community Tools** – Leaderboards, tipping, group DMs
-6. **Wave 6: Ecosystem Hub** – Analytics, SDK, multi-app launcher
-
-**Theme:** From zero → thriving onchain social product.
+## ✨ Core Features
+- **Farcaster-Native Mini App** → Feels instant inside Warpcast  
+- **Real-Time Charts** → Multi-token, customizable grid (Chart.js + live Celo data)  
+- **AI Trading Assistant** → Trend analysis, support/resistance, personalized signals  
+- **One-Tap Trading** → Execute with cUSD/USDC via Celo’s mini-pay + Valora/WalletKit  
+- **Social Alpha Layer** → See what tokens power users are buying, right in the feed  
+- **Copy-Trading Feeds** → Follow top performers, replicate with one click  
+- **Onchain Everything** → Trades, signals, and reputation fully verifiable  
 
 ---
 
-## 🛠️ Technologies Used
+## 🗺 Roadmap – Six Waves to the Ultimate Social Trading Terminal
+1. **Wave 1: Launchpad** – Live Frames, basic charts, Celo wallet connect  
+2. **Wave 2: Core Trading** – Multi-chart mini app, real-time AI signals, onchain swaps  
+3. **Wave 3: AI Alpha Engine** – Grok-powered predictive models, sentiment from casts  
+4. **Wave 4: Social Trading** – Leaderboards, copy-trading, trader profiles on Farcaster  
+5. **Wave 5: Community Floor** – Live trading channels, threaded signal discussions  
+6. **Wave 6: Intelligent Positions (iNFTs)** – Tokenized trading strategies you can own & trade  
 
-* **Next.js App Router** → Production-grade frontend
-* **Tailwind CSS** → Mobile-perfect UI
-* **TypeScript** → Type-safe DX
-* **Celo WalletKit** → Native wallet integration
-* **Neynar SDK** → Farcaster auth, casts, reactions
-* **Airstack** → Social graph insights
-* **Viem + Wagmi** → Modern Celo tooling
-* **Val.town / Cloudflare Workers** → Serverless backend
-
----
-
-## 🧪 How We Built It
-
-* **Research:** Analyzed top 50 Farcaster mini apps & dev pain points
-* **Architecture:** Designed for Celo + Farcaster native performance
-* **Production Patterns:** Extracted code from real high-traffic apps
-* **Testing:** Load-tested with real Warpcast traffic
+Theme: From alpha in a cast → to executed trade → to shared profit — all inside Farcaster.
 
 ---
 
-## 🧱 Challenges Overcome
-
-* Loading mini apps inside Warpcast in **<800ms**
-* Seamless auth without popups (Social Connect + permissions)
-* Reliable state sync between onchain/offchain
-* Keeping the bundle size tiny for mobile users
-
----
-
-## 📘 What You’ll Learn
-
-* How to build Farcaster mini apps that **actually feel fast**
-* Best practices for **Celo + Farcaster production**
-* Patterns used by top-performing Frames
-* How to **ship updates instantly** (no app store approvals)
+## 🛠 Tech Stack
+- Next.js App Router + TypeScript  
+- Tailwind CSS (mobile-perfect for Warpcast)  
+- Celo Blockchain + WalletKit + MiniPay  
+- Farcaster / Neynar SDK + Frames v2  
+- Airstack (social graph + follow data)  
+- Viem / Wagmi (Celo-native)  
+- The Graph + Celo subgraphs for indexing  
+- Grok API / OpenRouter for AI signals  
+- Vercel (edge-deployed for <400ms global load)
 
 ---
 
-## 🔮 What’s Next for Swund
-
-* Official **Swund SDK** ( → `npm install swund` )
-* AI Agent Templates (trading bot, meme generator, etc.)
-* One-click deploy to Vercel + Celo mainnet
-* **Swund Gallery** – showcase of apps built on Swund
-* Builder grants for teams shipping with Swund
-
----
-
-## 📦 Installation
-
+## ⚙️ Installation & Local Dev
 ```bash
-# Clone the repo
 git clone https://github.com/Thycrescendo/swund.git
-
-# Enter directory
 cd swund
-
-# Install dependencies
 npm install
 
-# Set up environment variables
+# Copy env example
 cp .env.example .env.local
-# → Add your Neynar API key, Celo provider URL, etc.
 
-# Run locally (simulates Warpcast perfectly)
+# Add your keys:
+# NEXT_PUBLIC_NEYNAR_API_KEY=
+# CELO_PROVIDER_URL=
+# GROK_API_KEY= (or other LLM)
+
 npm run dev
 ```
 
-Open: **[http://localhost:3000](http://localhost:3000)**
-Works as standalone or embedded in Warpcast.
-One-click deploy → **Vercel / Cloudflare Pages ready**
+Open [http://localhost:3000](http://localhost:3000) → works standalone or paste into Warpcast as a Frame.
+
+One-click deploy → Vercel (already configured)
 
 ---
 
 ## 🤝 Contributing
+Love onchain trading + Farcaster? Help us build the terminal traders actually live in.
 
-We’re building the **definitive way to ship Farcaster mini apps on Celo**.
+- Add new chart indicators  
+- Improve AI prompt engineering  
+- Build new signal types  
+- Ship new Celo tokens / pools  
 
-* Fork & build your app using Swund
-* Submit PRs with templates, fixes, or enhancements
-* Open issues for feature requests
-
-**Maintainer:** @Thycrescendo
-**Community:** warpcast.com/~/channel/swund
-
----
-
-## 📄 License
-
-MIT License — **build anything, ship everything.**
+Maintainer: [@thycrescendo](https://warpcast.com/thycrescendo) on Farcaster
 
 ---
 
-## ❤️ Acknowledgments
-
-Built with love for the **Farcaster** and **Celo** ecosystems.
-Special thanks to **Neynar, Airstack, Val.town**, and the builders shipping daily on Warpcast.
+## 📜 License
+MIT – ship fast, ship free.
 
 ---
 
-# **Swund – Accelerate Your Farcaster Mini App to Production**
-
-From idea → viral Frame → full mini app → thriving onchain community — **all on Celo, all with Swund.**
-
-👉 Start building today: [https://github.com/Thycrescendo/swund](https://github.com/Thycrescendo/swund)
-🚀 **Ship tomorrow.**
+## 🙏 Acknowledgments
+Built with massive respect for:
+- Celo – the mobile-first chain that actually works  
+- Farcaster & Warpcast – where the best alpha lives  
+- Neynar, Airstack, Val.town – making social + onchain composability real  
 
 ---
 
-Let me know if you want this converted into a **rich README with badges**, a **docs page**, or a **marketing landing page**.
+# 🌌 Swund – The AI-Powered Trading Floor of Farcaster
+Live where the conversation is. Trade where the alpha drops.
+
+Start trading: add Frame or visit swund.xyz  
+Repository: github.com/Thycrescendo/swund  
+
+Let’s make trading social again. 🚀

@@ -11,12 +11,12 @@ const Footer: React.FC = () => {
               <a href="#">Swund</a>
             </span>
             <span className="text-darkGray font-Montserrat text-lg">
-              The world&apos;s first decentralized AI-powered crypto trading app on 0G blockchain. <br />
+              The world&apos;s first decentralized AI-powered crypto trading app on Celo blockchain. <br />
               Real-time trading, AI insights, and community discovery for transparent financial empowerment.
             </span>
           </div>
           <span className="text-darkGray font-Montserrat text-lg">
-            The world&apos;s first decentralized AI-powered crypto trading app on 0G blockchain. <br />
+            The world&apos;s first decentralized AI-powered crypto trading app on Celo blockchain. <br />
             Real-time trading, AI insights, and community discovery for transparent financial empowerment.
           </span>
         </div>

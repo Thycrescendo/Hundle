@@ -13,7 +13,7 @@ const Mailing: React.FC = () => {
   Stay in the Loop with Swund
 </span>
 <span className="text-darkGray font-Montserrat text-lg">
-  Join our mailing list to stay updated on AI insights, 0G blockchain updates, trading strategies, and new token discoveries on Swund. <br />
+  Join our mailing list to stay updated on AI insights, Celo blockchain updates, trading strategies, and new token discoveries on Swund. <br />
   Empower your crypto trading with decentralized tools
 </span>
         </div>

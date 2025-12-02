@@ -102,7 +102,7 @@ const GenerationOnlineShopping: React.FC = () => {
             </span>
             <span className="text-darkGray font-Montserrat text-lg mt-6">
               Swund addresses the centralization and high costs of traditional trading platforms like Binance, where users face limited control, hidden fees, and lack of personalized insights. <br />
-              Built on 0G for scalable, AI-driven trading
+              Built on Celo for scalable, AI-driven trading
             </span>
           </div>
           <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 pb-24">
@@ -125,7 +125,7 @@ const GenerationOnlineShopping: React.FC = () => {
           AI-Powered Insights on Swund
         </span>
         <span className="text-darkGray font-Montserrat text-lg mt-6">
-          Leverage 0G&apos;s infrastructure for real-time market analysis and trading strategies, democratizing financial empowerment with transparent, on-chain AI solutions. <br />
+          Leverage Celo&apos;s infrastructure for real-time market analysis and trading strategies, democratizing financial empowerment with transparent, on-chain AI solutions. <br />
           Trade, analyze, and discover tokens with community tools
         </span>
       </div>

@@ -26,10 +26,10 @@ const MainPage: React.FC = () => {
           <span className="text-white font-bold font-Montserrat leading-normal text-5xl">
   The Home of <br />
   AI-Powered Crypto Trading <br />
-  on the Polygon chain
+  on the Celo chain
 </span>
 <span className="text-white text-lg font-Montserrat">
-  Swund is a decentralized, AI-powered crypto trading app built on Polygon chain. It offers real-time trading, multi-chart analysis, personalized AI insights, and a community-driven platform for token discovery and discussion, transforming crypto trading into a transparent, accessible public good. <br />
+  Swund is a decentralized, AI-powered crypto trading app built on Celo chain. It offers real-time trading, multi-chart analysis, personalized AI insights, and a community-driven platform for token discovery and discussion, transforming crypto trading into a transparent, accessible public good. <br />
   Trade like Binance, but decentralized and AI-enhanced
 </span>
           <div className="mt-10 md:flex md:flex-row flex-col justify-between">

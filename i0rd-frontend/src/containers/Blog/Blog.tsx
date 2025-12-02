@@ -54,7 +54,7 @@ const Blog: React.FC = () => {
           Latest Trading Insights on Swund
         </span>
         <span className="text-darkGray font-Montserrat text-lg mt-6">
-          Discover real-time market analysis, AI strategies, and community discussions on 0G blockchain trading. <br />
+          Discover real-time market analysis, AI strategies, and community discussions on Celo blockchain trading. <br />
           Designed for transparent, accessible crypto empowerment
         </span>
       </div>
