@@ -1,9 +1,8 @@
-# 🚀 Hundle – Decentralized AI-Powered Crypto Trading App on Celo × Farcaster
+# 🚀 Hundle – Decentralized AI-Powered Crypto Trading Platform on Celo
 
 ## 📖 Overview
-**Hundle** is the first truly native, production-grade, AI-powered crypto trading terminal that lives inside **Warpcast** and runs entirely on **Celo**.
 
-Real-time charts, personalized AI trading signals, one-tap onchain execution, social alpha feeds, and copy-trading — all inside a lightning-fast Farcaster mini app powered by Celo’s mobile-first, ultra-low-fee chain.
+Building the next generation of decentralized trading by combining AI, DeFi, and GoodDollar (G$) to make crypto investing more accessible, rewarding, and community-driven.
 
 - Trade cUSD, USDC, CELO, and any Celo token without leaving your Farcaster feed  
 - Get live AI alpha from Grok or onchain LLMs directly in Warpcast  

@@ -6,6 +6,12 @@ import { Button } from '../../components/common/Button/Button';
 import { Images } from '../../environment'; // Fixed typo from 'envaironmnet'
 import Header from '../../components/Header/Header';
 
+import WalletConnectButton from "../../features/wallet/WalletConnectButton";
+import MarketPreview from "../../features/markets/MarketPreview";
+import TradeWidget from "../../features/trade/TradeWidget";
+import PortfolioPreview from "../../features/portfolio/PortfolioPreview";
+import GoodBuildersStats from "../../features/rewards/GoodBuildersStats";
+
 
 const MainPage: React.FC = () => {
   const [btnActive, setBtnActive] = useState<'explore' | 'create'>('explore');
@@ -32,6 +38,15 @@ const MainPage: React.FC = () => {
   Hundle is a decentralized, AI-powered crypto trading app built on Celo chain. It offers real-time trading, multi-chart analysis, personalized AI insights, and a community-driven platform for token discovery and discussion, transforming crypto trading into a transparent, accessible public good. <br />
   Trade like Binance, but decentralized and AI-enhanced
 </span>
+
+    <div className="mt-8">
+  <WalletConnectButton />
+</div>
+
+<MarketPreview />
+<TradeWidget />
+<PortfolioPreview />
+<GoodBuildersStats />
           <div className="mt-10 md:flex md:flex-row flex-col justify-between">
             <div>
               <Button
