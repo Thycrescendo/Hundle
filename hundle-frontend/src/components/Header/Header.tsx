@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Button } from '../common/Button/Button';
 import { BsList } from 'react-icons/bs';
 import { IoIosCloseCircle } from 'react-icons/io';
+import WalletConnectButton from "../../features/wallet/WalletConnectButton";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -59,7 +59,7 @@ const Header = () => {
         <BsList color="white" size={42} onClick={() => setShow(true)} />
       </div>
       <div className="md:block hidden">
-        <Button title="Login" className="bg-gradient-to-r from-orange1 to-orange2" />
+        <WalletConnectButton/>
       </div>
     </div>
   );

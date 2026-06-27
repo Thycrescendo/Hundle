@@ -2,12 +2,10 @@ import type { AppProps } from "next/app";
 import "../styles/globals.css";
 import Web3Provider from "../src/providers/Web3Provider";
 
-function MyApp({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: AppProps) {
   return (
     <Web3Provider>
       <Component {...pageProps} />
     </Web3Provider>
   );
 }
-
-export default MyApp;
